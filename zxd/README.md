@@ -5,7 +5,7 @@
 - cuda 9
 - torch 0.4.0
 ## Error
-1) bash install_scripts.sh
+### 1) bash install_scripts.sh
 
 error1:
 
@@ -21,11 +21,11 @@ rm: cannot remove '../_ext': No such file or directory
 
 办法： 重新运行一遍
 
-2) 下载demo and model weights老失败 
+### 2) 下载demo and model weights老失败 
 
 办法：多试几次就会成功
 
-3) python tools/video_inpaint.py 
+### 3) python tools/video_inpaint.py 
 
 ModuleNotFoundError: No module named 'models.FlowNet2_Models.resample2d_package._ext' 
 
